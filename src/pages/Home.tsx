@@ -35,7 +35,8 @@ const Home = () => {
           <img
             src={heroBanner}
             alt="Fashion Hero"
-            className="w-full h-full object-center opacity-90 "
+            loading="lazy"
+            className="w-full h-full object-center opacity-90"
           />
         </div>
 
