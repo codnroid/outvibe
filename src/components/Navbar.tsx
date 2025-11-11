@@ -110,7 +110,7 @@ export const Navbar = () => {
 
             {/* Mobile Menu Button */}
             <Button
-              variant="ghost"
+               variant="outline"
               size="icon"
               className="md:hidden rounded-full"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
